@@ -1,0 +1,42 @@
+.wrapper {
+  margin: auto;
+  width: 80%;
+  margin-top: 10vh;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid grey;
+  max-width: 500px;
+}
+
+h1.header {
+  color: #fff;
+  text-align: center;
+  background-color: #6495ed;
+  margin: 0;
+  padding: 20px;
+}
+
+ul.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+li:hover {
+  background-color: #C9CCCB;
+}
+
+.preloader {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
